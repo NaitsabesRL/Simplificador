@@ -1,0 +1,7 @@
+dist/
+inventario/dist/
+*.exe
+*.tar.gz
+*.zip
+*.log
+*.tmp

@@ -76,3 +76,22 @@ inventario/
 - Stock no puede quedar negativo; salida mayor al stock → error claro.
 - Precio de venta menor al costo → advertencia de posible pérdida.
 - Fechas de vencimiento con formato AAAA-MM-DD verificado.
+
+## 🚀 Instalación fácil (para el usuario final)
+
+Se entregan paquetes listos en `dist/`:
+
+**Windows:** descomprimir `inventario-1.0.0-windows.zip` y **doble clic** en
+`instalar-windows.bat`. Sin administrador: copia el programa, crea accesos
+directores en el Escritorio y el menú Inicio, y registra el comando `inventario`.
+
+**Linux:** descomprimir `inventario-1.0.0-linux.tar.gz` y ejecutar:
+```bash
+cd linux && ./instalar-linux.sh
+```
+Crea el comando `inventario` y un acceso directo en el menú de aplicaciones.
+
+También puede usarse sin instalar: doble clic / `./inventario-linux` directamente.
+Flags útiles: `--version`, `--ruta-datos`, `--ayuda`.
+
+Para regenerar los paquetes: `./package.sh`
